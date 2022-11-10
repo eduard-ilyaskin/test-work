@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("./assets/top-shape.svg"), url("./assets/middle-shape.svg");
+  background-position: top right, center left;
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto;
+}
